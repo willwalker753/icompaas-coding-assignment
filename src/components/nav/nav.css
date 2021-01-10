@@ -6,7 +6,8 @@
     width: 30%;
     padding: 0px 10px 0px 10px;
     float: left;
-    position: relative;
+    position: fixed;
+    z-index: 5;
 }
 #nav-box > a {
     margin-top: 20px;
@@ -23,6 +24,7 @@
 
 .nav-box-hide {
     animation: nav-box-hide .5s 1 forwards;
+    position: absolute!important;
 }
 @keyframes nav-box-hide {
     from { left: 0%; }

@@ -1,0 +1,34 @@
+#plans-box {
+    padding-top: 40px;
+}
+.plans-box {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    background-color: #3f51b5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    box-shadow: 3px 3px 4px rgb(122, 122, 122);
+}
+.plans-box > img {
+    border-radius: 10px 10px 0px 0px;
+    height: 250px;
+    object-fit: cover;
+}
+.plans-box > div {
+    padding: 0px 12px 12px 12px;
+}
+.plans-box > div > p {
+    height: 87px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+.plans-box > div > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
