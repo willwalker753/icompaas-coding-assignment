@@ -5,8 +5,8 @@ export default class nav extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            'hamburgerOpen': true,
-            'hamburgerIcon': 'fas fa-times',
+            'hamburgerOpen': false,
+            'hamburgerIcon': 'fas fa-bars',
         }
     }
     hamburgerClick = e => {

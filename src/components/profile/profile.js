@@ -1,15 +1,28 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
+import Switch from '@material-ui/core/Switch';
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
 import './profile.css';
 
 export default class profile extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+             'checked': true
+        }
+    }
+    
+    toggleChecked = () => {
+        this.setState({'checked': !this.state.checked})
+    };
     render() {
         return (
             <div id='profile-box'>
                 <h3>User Profile</h3>
                 <div id='profile-picture' className={this.props.root}>
-                <img src='https://github.com/willwalker753/organizing-your-react-code/blob/master/defaultProfilePic.png?raw=true' alt='profile'></img>
+                <img src='https://www.eharmony.co.uk/dating-advice/wp-content/uploads/2011/04/profilefavourite-900x600.jpg' alt='profile'></img>
                     <input
                         accept="image/*"
                         className={this.props.input}
@@ -30,6 +43,12 @@ export default class profile extends Component {
                     <TextField id="standard-basic" type='password' label="Repeat New Password" />
                     <Button variant="contained" color="primary">Submit</Button>
                 </form>
+                <FormGroup>
+                    <FormControlLabel
+                        control={<Switch checked={this.state.checked} onChange={this.toggleChecked} />}
+                        label="Subscribed to Email Newsletter"
+                    />
+                </FormGroup>
             </div>
         )
     }

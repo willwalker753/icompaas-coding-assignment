@@ -7,6 +7,7 @@
     padding: 50px 10px 0px 10px;
     float: left;
     position: fixed;
+    left: -36%;
     z-index: 5;
     color: white;
 }
@@ -26,8 +27,8 @@
 }
 #nav-hamburger > button {
     position: fixed;
-    top: 8px;
-    left: 8px;
+    top: 10px;
+    left: 10px;
     height: 40px;
     width: 40px;
     text-align: center;
