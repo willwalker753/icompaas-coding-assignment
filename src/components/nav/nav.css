@@ -1,30 +1,47 @@
 #nav-box {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: rgb(126, 126, 126);
     height: 100vh;
     width: 30%;
-    padding: 0px 10px 0px 10px;
+    padding: 50px 10px 0px 10px;
     float: left;
     position: fixed;
     z-index: 5;
+    color: white;
 }
 #nav-box > a {
     margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+#nav-box > a:hover {
+    color: #3f51b5;
+    font-weight: bold;
 }
 #nav-hamburger {
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 #nav-hamburger > button {
-    position: relative;
-    left: 45px;
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #3f51b5;
+    border: none;
+    color: white;
 }
-
+#nav-hamburger > button:focus {
+    outline: none;
+}
 
 .nav-box-hide {
     animation: nav-box-hide .5s 1 forwards;
-    position: absolute!important;
 }
 @keyframes nav-box-hide {
     from { left: 0%; }

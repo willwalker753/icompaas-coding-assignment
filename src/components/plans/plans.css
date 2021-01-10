@@ -1,5 +1,7 @@
-#plans-box {
-    padding-top: 40px;
+#plans-box > h3 {
+    margin-top: 0px;
+    padding: 20px 0px 5px 0px;
+    text-align: center;
 }
 .plans-box {
     width: 80%;
@@ -31,4 +33,45 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+#plans-box > form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#plans-box > form > div {
+    width: 100%;
+}
+
+.addons-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height:130px;
+    margin: 20px 0px 20px 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #3f51b5;
+    padding-right: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.addons-box > img {
+    height: 130px;
+    max-width: 80px;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+    padding-right: 15px;
+}
+.addons-box > div > h3, .addons-box > div > p {
+    margin:0px;
+}
+.addons-box > i {
+    align-self: flex-start;
+    padding: 10px 2px 0px 0px;
+    font-size: 22px;
+}
+.addons-box > i:hover {
+    cursor: pointer;
 }

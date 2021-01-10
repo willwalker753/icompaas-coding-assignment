@@ -7,6 +7,7 @@ export default class profile extends Component {
     render() {
         return (
             <div id='profile-box'>
+                <h3>User Profile</h3>
                 <div id='profile-picture' className={this.props.root}>
                 <img src='https://github.com/willwalker753/organizing-your-react-code/blob/master/defaultProfilePic.png?raw=true' alt='profile'></img>
                     <input
