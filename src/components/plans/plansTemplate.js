@@ -8,7 +8,7 @@ class plansTemplate extends Component {
                 <div>
                     <h3>{this.props.title}</h3>
                     <p>{this.props.desc}</p>
-                    <a href='/plans'>LEARN MORE</a>
+                    <a href='/plans'>Learn More</a>
                 </div>
             </div>
         );

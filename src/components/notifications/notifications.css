@@ -1,8 +1,12 @@
 #notifications-box {
-    padding-top: 50px;
+    padding-top: 10px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+}
+#notifications-box > h3 {
+    text-align: center;
+    margin-bottom: 30px;
 }
 .MuiCard-root {
     margin-bottom: 30px;

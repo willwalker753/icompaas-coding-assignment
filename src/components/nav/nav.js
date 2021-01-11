@@ -38,6 +38,7 @@ export default class nav extends Component {
                 <a href='/notifications'>Notifications</a>
                 <a href='/billing'>Billing <span>&#38;</span> Invoices</a>
                 <a href='/plans'>Plans <span>&#38;</span> Addons</a>
+                <a href='/'>Logout</a>
             </div>
         )
     }

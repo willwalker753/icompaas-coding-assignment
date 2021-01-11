@@ -1,0 +1,44 @@
+#billing-box > h3, #billing-box > p, #billing-box > form {
+    text-align: center;
+}
+#billing-box > form {
+    margin: 22px 0px 10px 0px;
+}
+#billing-box > h3 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.invoice-box, #invoice-labels {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.invoice-box {
+    background-color: #3f51b5;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgb(122, 122, 122);
+    margin-bottom: 20px;
+}
+#invoice-labels, .invoice-prices {
+    display: flex;
+    justify-content: space-between;
+}
+#invoice-labels > *, .invoice-prices > * {
+    width: 22%;
+}
+.invoice-prices > div > h3, .invoice-prices > p {
+    margin: 8px 0px 8px 0px;
+}
+.invoice-prices > p, .text-right {
+    text-align: right;
+}
+.invoice-box > p {
+    margin: 0px;
+}
+.invoice-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
