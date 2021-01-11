@@ -4,9 +4,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-#notifications-box > h3 {
+#notifications > h3 {
     text-align: center;
     margin-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 0px;
 }
 .MuiCard-root {
     margin-bottom: 30px;
@@ -19,4 +21,29 @@
 }
 .MuiCardActions-root {
     padding-top: 0px!important;
+}
+@media only screen and (min-width: 600px) {
+    #notifications-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        position: relative;
+        left: 9%;
+    }
+    #notifications-box > div {
+        min-width: 175px;
+        margin-right: 30px;
+    }
+    #notifications > h3 {
+        position: relative;
+        left: 5%;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    #notifications-box {
+        left: 11%;
+    }
+    #notifications > h3 {
+        left: 3%;
+    }
 }

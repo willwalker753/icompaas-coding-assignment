@@ -63,3 +63,27 @@
 .Mui-checked + .MuiSwitch-track {
     background-color: #3f51b5!important;
 }
+#desktop-picture {
+    display: none;
+}
+@media only screen and (min-width: 600px) {
+    #profile-box {
+        position: relative;
+        left: 8%;
+    }
+    #profile-password {
+        width: 40%;
+        margin-top: 65px;
+    }
+    #profile-picture {
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    #profile-box {
+        left: 6%;
+    }
+    #profile-password {
+        width: 22%;
+    }
+}

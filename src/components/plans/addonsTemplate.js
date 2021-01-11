@@ -9,7 +9,7 @@ class addonsTemplate extends Component {
                     <h3>{this.props.title}</h3>
                     <p>{this.props.desc}</p>
                 </div>
-                <i class="fas fa-plus-circle"></i>
+                <i className="fas fa-plus-circle"></i>
             </div>
         );
     }

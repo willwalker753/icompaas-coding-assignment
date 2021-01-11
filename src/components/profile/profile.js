@@ -49,6 +49,7 @@ export default class profile extends Component {
                         label="Subscribed to Email Newsletter"
                     />
                 </FormGroup>
+                <img id='desktop-picture' src='https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/autumn-in-the-white-mountains-of-new-hampshire-royalty-free-image-841380450-1567025100.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*' alt='landscape'/>
             </div>
         )
     }

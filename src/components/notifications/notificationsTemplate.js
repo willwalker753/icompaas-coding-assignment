@@ -12,7 +12,7 @@ class notificationsTemplate extends Component {
             <Card className={this.props.root}>
                 <CardContent>
                     <Typography className={this.props.title} color="textSecondary" gutterBottom>
-                    <i class="fas fa-bell"></i>
+                    <i className="fas fa-bell"></i>
                     </Typography>
                     <Typography variant="h5" component="h2">
                     {this.props.name}
