@@ -42,3 +42,41 @@
     justify-content: space-between;
     font-size: 12px;
 }
+
+@media only screen and (min-width: 600px) {
+    #billing-box {
+        width: 60%;
+    }
+    .invoice-box, #invoice-labels, #billing-box > h3, #billing-box > p, #billing-box > form {
+        position: relative;
+        left: 52%;
+    }
+    .invoice-box, #invoice-labels {
+        width: 90%;
+    }
+    .invoice-box {
+        padding: 4px 14px 4px 14px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .invoice-box, #invoice-labels, #billing-box > h3, #billing-box > p, #billing-box > form {
+        position: relative;
+        left: 40%;
+    }
+    .invoice-box, #invoice-labels {
+        width: 60%;
+    }
+    #billing-box > p {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .invoice-box {
+        margin-bottom: 30px;
+    }
+    .invoice-prices > div > h3 {
+        padding-bottom: 4px;
+    }
+    .invoice-prices > div, .text-left {
+        width: 50%!important;
+    }
+}

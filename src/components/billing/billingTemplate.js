@@ -10,7 +10,7 @@ class billingTemplate extends Component {
                     </div>
                     <p>{this.props.cost}</p>
                     <p>{this.props.tax}</p>
-                    <p>{this.props.total}</p>
+                    <p><b>{this.props.total}</b></p>
                 </div>
                 <p>{this.props.desc}</p>
                 <div className='invoice-details'>

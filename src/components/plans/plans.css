@@ -76,3 +76,49 @@
 .addons-box > i:hover {
     cursor: pointer;
 }
+
+@media only screen and (min-width: 600px) {
+    #plans-box {
+        width: 50%;
+        position: relative;
+        left: 37%;
+    }
+    .plans-box, .addons-box, #plans-box > form {
+        width: 100%;
+    }
+    .plans-box > div {
+        padding: 0px 18px 18px 18px;
+    }
+    .addons-box > i {
+        padding: 14px 7px 0px 0px;
+    }
+    .addons-box > div > p {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .plans-box, .addons-box, #plans-box > form {
+        width: 80%;
+        position: relative;
+        right: 10%;
+    }
+    #plans-box > form {
+        width: 45%;
+    }
+    #plans-box > h3 {
+        position: relative;
+        right: 10%;
+        margin-bottom: 30px;
+    }
+    .plans-box > img {
+        height: 350px;
+    }
+    .addons-box {
+        height: 150px;
+    }
+    .addons-box > img {
+        height: 150px;
+        max-width: 120px;
+    }
+}

@@ -69,7 +69,8 @@
 @media only screen and (min-width: 600px) {
     #profile-box {
         position: relative;
-        left: 8%;
+        left: 18%;
+        width: 82%
     }
     #profile-password {
         width: 40%;
@@ -81,7 +82,7 @@
 }
 @media only screen and (min-width: 1100px) {
     #profile-box {
-        left: 6%;
+        left: 15%;
     }
     #profile-password {
         width: 22%;

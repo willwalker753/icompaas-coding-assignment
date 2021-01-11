@@ -22,7 +22,7 @@ export default class plans extends Component {
                 <AddonsTemplate img='https://www.popsci.com/resizer/2tN5JhomrdxbKVnC3I27_XOz1Zw=/760x570/filters:focal(600x450:601x451)/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/UQL4MLA6MXE6ECSZHOSXA3LA4E.jpg' title='Photo Widget' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...' />
                 <AddonsTemplate img='https://s23527.pcdn.co/wp-content/uploads/2019/02/moon-1-745x517.jpg.optimal.jpg' title='Moon Tool' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...' />
                 <AddonsTemplate img='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6V9HZOuOcM1yRkRLwrZqck6PSH6jKTrL43Q&usqp=CAU' title='Photo Filter' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...' />
-                <AddonsTemplate img='https://www.health.harvard.edu/media/content/images/cr/8c38e37d-e8b9-48dd-a9a8-65083a6115e5.jpg' title='Calorie Counter' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...' />
+                <AddonsTemplate img='https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg' title='Calorie Counter' desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...' />
             </div>
         )
     }

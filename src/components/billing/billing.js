@@ -13,7 +13,7 @@ class billing extends Component {
                     <TextField id="outlined-basic" label="Order Number" variant="outlined" />
                 </form>
                 <div id='invoice-labels'>
-                    <p>Description</p>
+                    <p className='text-left'>Description</p>
                     <p className='text-right'>Cost</p>
                     <p className='text-right'>Tax</p>
                     <p className='text-right'>Total</p>

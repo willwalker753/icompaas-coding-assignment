@@ -40,6 +40,9 @@
 #nav-hamburger > button:focus {
     outline: none;
 }
+#nav-hamburger > button:hover {
+    cursor: pointer;
+}
 
 .nav-box-hide {
     animation: nav-box-hide .5s 1 forwards;
@@ -56,15 +59,16 @@
     to { left: 0%; }
 }
 
-
 @media only screen and (min-width: 600px) {
     #nav-hamburger > button {
         display: none;
     }
     #nav-box {
         left: 0%;
-        width: 15%;
+        width: 18%;
+        padding-top: 5px;
         padding-left: 20px;
+        font-size: 18px;
     }
     .nav-box-hide {
         animation: none;
